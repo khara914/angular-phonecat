@@ -23,5 +23,7 @@ after_success:
   - docker push $DOCKER_USERNAME/angular-phonecat:$TRAVIS_BRANCH
 
 notifications:
- - slack: kahara:JZK5i2aigUY1WJW0MDxuWSvA
- - webhooks: https://outlook.office365.com/webhook/2057372b-54ef-42ec-896e-7c698ca2e4bd@72f988bf-86f1-41af-91ab-2d7cd011db47/TravisCI/f70aaf26bb1345b3bca3633e42ecb0d1/bb67bd3b-9b3f-4337-9b69-4983f8b1f33c
+  slack: kahara:JZK5i2aigUY1WJW0MDxuWSvA
+
+notifications:
+  webhooks: https://outlook.office365.com/webhook/2057372b-54ef-42ec-896e-7c698ca2e4bd@72f988bf-86f1-41af-91ab-2d7cd011db47/TravisCI/f70aaf26bb1345b3bca3633e42ecb0d1/bb67bd3b-9b3f-4337-9b69-4983f8b1f33c
