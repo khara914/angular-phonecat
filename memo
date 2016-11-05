@@ -1,0 +1,156 @@
+npm WARN deprecated minimatch@2.0.10: Please update to minimatch 3.0.2 or higher to avoid a RegExp DoS issue
+npm WARN deprecated minimatch@0.3.0: Please update to minimatch 3.0.2 or higher to avoid a RegExp DoS issue
+
+> ws@0.4.32 install /Users/developer/angular-phonecat/node_modules/karma/node_modules/socket.io/node_modules/socket.io-client/node_modules/ws
+> (node-gyp rebuild 2> builderror.log) || (exit 0)
+
+  CXX(target) Release/obj.target/bufferutil/src/bufferutil.o
+  SOLINK_MODULE(target) Release/bufferutil.node
+
+> fsevents@1.0.15 install /Users/developer/angular-phonecat/node_modules/karma/node_modules/chokidar/node_modules/fsevents
+> node-pre-gyp install --fallback-to-build
+
+[fsevents] Success: "/Users/developer/angular-phonecat/node_modules/karma/node_modules/chokidar/node_modules/fsevents/lib/binding/Release/node-v14-darwin-x64/fse.node" is installed via remote
+npm WARN engine xmlbuilder@8.2.2: wanted: {"node":">=4.0"} (current: {"node":"0.12.3","npm":"2.9.1"})
+
+> utf-8-validate@1.2.1 install /Users/developer/angular-phonecat/node_modules/protractor/node_modules/selenium-webdriver/node_modules/ws/node_modules/utf-8-validate
+> node-gyp rebuild
+
+  CXX(target) Release/obj.target/validation/src/validation.o
+  SOLINK_MODULE(target) Release/validation.node
+ld: library not found for -lgcc_s.10.5
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make: *** [Release/validation.node] Error 1
+gyp ERR! build error
+gyp ERR! stack Error: `make` failed with exit code: 2
+gyp ERR! stack     at ChildProcess.onExit (/usr/local/lib/node_modules/npm/node_modules/node-gyp/lib/build.js:269:23)
+gyp ERR! stack     at ChildProcess.emit (events.js:110:17)
+gyp ERR! stack     at Process.ChildProcess._handle.onexit (child_process.js:1074:12)
+gyp ERR! System Darwin 14.5.0
+gyp ERR! command "node" "/usr/local/lib/node_modules/npm/node_modules/node-gyp/bin/node-gyp.js" "rebuild"
+gyp ERR! cwd /Users/developer/angular-phonecat/node_modules/protractor/node_modules/selenium-webdriver/node_modules/ws/node_modules/utf-8-validate
+gyp ERR! node -v v0.12.3
+gyp ERR! node-gyp -v v1.0.3
+gyp ERR! not ok
+
+> bufferutil@1.2.1 install /Users/developer/angular-phonecat/node_modules/protractor/node_modules/selenium-webdriver/node_modules/ws/node_modules/bufferutil
+> node-gyp rebuild
+
+  CXX(target) Release/obj.target/bufferutil/src/bufferutil.o
+  SOLINK_MODULE(target) Release/bufferutil.node
+ld: library not found for -lgcc_s.10.5
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make: *** [Release/bufferutil.node] Error 1
+gyp ERR! build error
+gyp ERR! stack Error: `make` failed with exit code: 2
+gyp ERR! stack     at ChildProcess.onExit (/usr/local/lib/node_modules/npm/node_modules/node-gyp/lib/build.js:269:23)
+gyp ERR! stack     at ChildProcess.emit (events.js:110:17)
+gyp ERR! stack     at Process.ChildProcess._handle.onexit (child_process.js:1074:12)
+gyp ERR! System Darwin 14.5.0
+gyp ERR! command "node" "/usr/local/lib/node_modules/npm/node_modules/node-gyp/bin/node-gyp.js" "rebuild"
+gyp ERR! cwd /Users/developer/angular-phonecat/node_modules/protractor/node_modules/selenium-webdriver/node_modules/ws/node_modules/bufferutil
+gyp ERR! node -v v0.12.3
+gyp ERR! node-gyp -v v1.0.3
+gyp ERR! not ok
+npm WARN optional dep failed, continuing utf-8-validate@1.2.1
+npm WARN optional dep failed, continuing bufferutil@1.2.1
+
+> angular-phonecat@0.0.0 postinstall /Users/developer/angular-phonecat
+> bower install
+
+bower cached        https://github.com/angular/bower-angular.git#1.4.14
+bower validate      1.4.14 against https://github.com/angular/bower-angular.git#1.4.x
+bower cached        https://github.com/angular/bower-angular-resource.git#1.4.14
+bower validate      1.4.14 against https://github.com/angular/bower-angular-resource.git#1.4.x
+bower cached        https://github.com/jquery/jquery-dist.git#2.1.4
+bower validate      2.1.4 against https://github.com/jquery/jquery-dist.git#~2.1.1
+bower cached        https://github.com/angular/bower-angular-mocks.git#1.4.14
+bower validate      1.4.14 against https://github.com/angular/bower-angular-mocks.git#1.4.x
+bower cached        https://github.com/angular/bower-angular-route.git#1.4.14
+bower validate      1.4.14 against https://github.com/angular/bower-angular-route.git#1.4.x
+bower cached        https://github.com/twbs/bootstrap.git#3.1.1
+bower validate      3.1.1 against https://github.com/twbs/bootstrap.git#~3.1.1
+bower cached        https://github.com/angular/bower-angular-animate.git#1.4.14
+bower validate      1.4.14 against https://github.com/angular/bower-angular-animate.git#1.4.x
+bower install       jquery#2.1.4
+bower install       angular-resource#1.4.14
+bower install       angular#1.4.14
+bower install       angular-mocks#1.4.14
+bower install       angular-route#1.4.14
+bower install       bootstrap#3.1.1
+bower install       angular-animate#1.4.14
+
+jquery#2.1.4 app/bower_components/jquery
+
+angular-resource#1.4.14 app/bower_components/angular-resource
+└── angular#1.4.14
+
+angular#1.4.14 app/bower_components/angular
+
+angular-mocks#1.4.14 app/bower_components/angular-mocks
+└── angular#1.4.14
+
+angular-route#1.4.14 app/bower_components/angular-route
+└── angular#1.4.14
+
+bootstrap#3.1.1 app/bower_components/bootstrap
+└── jquery#2.1.4
+
+angular-animate#1.4.14 app/bower_components/angular-animate
+└── angular#1.4.14
+karma-firefox-launcher@0.1.7 node_modules/karma-firefox-launcher
+
+tmp@0.0.23 node_modules/tmp
+
+karma-jasmine@0.1.6 node_modules/karma-jasmine
+
+shelljs@0.2.6 node_modules/shelljs
+
+karma-chrome-launcher@0.1.12 node_modules/karma-chrome-launcher
+└── which@1.2.11 (isexe@1.1.2)
+
+http-server@0.6.1 node_modules/http-server
+├── opener@1.3.0
+├── colors@0.6.2
+├── portfinder@0.2.1 (mkdirp@0.0.7)
+├── optimist@0.5.2 (wordwrap@0.0.3)
+├── union@0.3.8 (pkginfo@0.2.3, qs@0.5.6)
+└── ecstatic@0.4.13 (ent@0.0.7, mime@1.2.11, optimist@0.3.7)
+
+karma@0.12.37 node_modules/karma
+├── di@0.0.1
+├── mime@1.3.4
+├── colors@1.1.2
+├── graceful-fs@3.0.11 (natives@1.1.0)
+├── q@1.4.1
+├── glob@5.0.15 (path-is-absolute@1.0.1, inherits@2.0.3, inflight@1.0.6, once@1.4.0)
+├── minimatch@2.0.10 (brace-expansion@1.1.6)
+├── optimist@0.6.1 (wordwrap@0.0.3, minimist@0.0.10)
+├── source-map@0.4.4 (amdefine@1.0.1)
+├── useragent@2.1.9 (lru-cache@2.2.4)
+├── rimraf@2.5.4 (glob@7.1.1)
+├── log4js@0.6.38 (readable-stream@1.0.34, semver@4.3.6)
+├── http-proxy@0.10.4 (colors@0.6.2, pkginfo@0.3.1, utile@0.2.1)
+├── connect@2.30.2 (cookie@0.1.3, bytes@2.1.0, utils-merge@1.0.0, cookie-signature@1.0.6, pause@0.1.0, fresh@0.3.0, on-headers@1.0.1, response-time@2.3.1, parseurl@1.3.1, content-type@1.0.2, vhost@3.0.2, basic-auth-connect@1.0.0, cookie-parser@1.3.5, depd@1.0.1, connect-timeout@1.6.2, http-errors@1.3.1, serve-favicon@2.3.0, method-override@2.3.6, qs@4.0.0, debug@2.2.0, finalhandler@0.4.0, morgan@1.6.1, express-session@1.11.3, csurf@1.8.3, serve-static@1.10.3, type-is@1.6.13, multiparty@3.3.2, compression@1.5.2, errorhandler@1.4.3, body-parser@1.13.3, serve-index@1.7.3)
+├── lodash@3.10.1
+├── socket.io@0.9.16 (base64id@0.1.0, policyfile@0.0.4, redis@0.7.3, socket.io-client@0.9.16)
+└── chokidar@1.6.1 (path-is-absolute@1.0.1, inherits@2.0.3, async-each@1.0.1, glob-parent@2.0.0, is-binary-path@1.0.1, is-glob@2.0.1, readdirp@2.1.0, anymatch@1.3.0, fsevents@1.0.15)
+
+bower@1.7.9 node_modules/bower
+
+protractor@2.5.1 node_modules/protractor
+├── jasminewd@1.1.0
+├── jasminewd2@0.0.6
+├── html-entities@1.1.3
+├── q@1.0.0
+├── minijasminenode@1.1.1
+├── optimist@0.6.1 (wordwrap@0.0.3, minimist@0.0.10)
+├── adm-zip@0.4.4
+├── glob@3.2.11 (inherits@2.0.3, minimatch@0.3.0)
+├── jasmine@2.3.2 (exit@0.1.2, jasmine-core@2.3.4)
+├── saucelabs@1.0.1 (https-proxy-agent@1.0.0)
+├── accessibility-developer-tools@2.6.0
+├── source-map-support@0.2.10 (source-map@0.1.32)
+├── lodash@2.4.2
+├── request@2.57.0 (caseless@0.10.0, aws-sign2@0.5.0, forever-agent@0.6.1, oauth-sign@0.8.2, tunnel-agent@0.4.3, stringstream@0.0.5, isstream@0.1.2, json-stringify-safe@5.0.1, node-uuid@1.4.7, combined-stream@1.0.5, qs@3.1.0, form-data@0.2.0, mime-types@2.0.14, http-signature@0.11.0, bl@0.9.5, tough-cookie@2.3.2, hawk@2.3.1, har-validator@1.8.0)
+└── selenium-webdriver@2.47.0 (tmp@0.0.24, rimraf@2.5.4, xml2js@0.4.4, ws@0.8.1)
