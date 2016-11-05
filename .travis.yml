@@ -21,3 +21,6 @@ script:
 after_success:
   - docker login -u $DOCKER_USERNAME -p $DOCKER_PASSWORD -e $DOCKER_EMAIL
   - docker push $DOCKER_USERNAME/angular-phonecat:$TRAVIS_BRANCH
+
+notifications:
+  slack: kahara:JZK5i2aigUY1WJW0MDxuWSvA
