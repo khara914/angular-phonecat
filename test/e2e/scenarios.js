@@ -61,7 +61,7 @@ describe('PhoneCat App', function() {
       ]);
     });
 //エンドツーエンドテスト追加
-/*
+
     it('should filter the phone list via the drop down select box', function() {
 
       var phoneList = element.all(by.repeater('phone in phones'));
@@ -71,7 +71,7 @@ describe('PhoneCat App', function() {
 
       expect(phoneList.count()).toBe(2);
     });
-*/
+
     it('should render phone specific links', function() {
       var query = element(by.model('query'));
       query.sendKeys('nexus');

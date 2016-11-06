@@ -10,3 +10,4 @@ web:
   image: 'kahara/angular-phonecat:playbook'
   autoredeploy: true
   target_num_containers: 2
+  
