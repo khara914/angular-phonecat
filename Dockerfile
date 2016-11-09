@@ -1,6 +1,6 @@
 FROM node:0.10
 
-MAINTAINER tktk8924 <myphone.tk@gmail.com>
+MAINTAINER khara914 <kazuki.harada914@gmail.com>
 
 WORKDIR /app
 COPY ./ .
