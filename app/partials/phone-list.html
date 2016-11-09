@@ -10,7 +10,7 @@
         <option value="age">Newest</option>
       </select>
 
-<!--
+
 Carrier:
 <select ng-model="carrier">
   <option></option>
@@ -23,7 +23,7 @@ Carrier:
   <option>US Cellular</option>
   <option>Sprint</option>
 </select>
--->
+
 
     </div>
     <div class="col-md-10">
@@ -31,7 +31,7 @@ Carrier:
 
       <ul class="phones">
  <!-- <li ng-repeat="phone in phones | filter:query | orderBy:orderProp | filter:{carrier:carrier}" -->
-        <li ng-repeat="phone in phones | filter:query | orderBy:orderProp"
+        <li ng-repeat="phone in phones | filter:query | orderBy:orderProp | filter:{carrier:carrier}"
             class="thumbnail phone-listing">
           <a href="#/phones/{{phone.id}}" class="thumb"><img ng-src="{{phone.imageUrl}}" alt="{{phone.name}}"></a>
           <a href="#/phones/{{phone.id}}">{{phone.name}}</a>
